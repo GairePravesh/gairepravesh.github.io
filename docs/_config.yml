@@ -20,7 +20,7 @@ description: Welcome to my blog. I post writeups about various challenges and ct
 twitter_username: GairePravesh
 github_username: GairePravesh
 instagram_username: GairePravesh
-minimal_mistakes_skin: air
+minimal_mistakes_skin: default
 search: true
 
 # Build settings

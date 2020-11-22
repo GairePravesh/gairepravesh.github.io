@@ -2,5 +2,5 @@ main:
   - title: "About"
     url: /about/
   - title: "Posts"
-    url: /year-archive/
+    url: /posts-by-categories/
  
