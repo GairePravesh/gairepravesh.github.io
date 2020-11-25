@@ -6,9 +6,8 @@ permalink: /about/
 
 Hi, 
 
-If you are here; you know who I am and what I do.
-
-There's more to explore; let's connect. 
+You can contact me through any social's for queries. 
 
 Below you can find my CV attached [=>]({% link /assets/files/cv.pdf %})
 
+_Happy Hacking_ !!!
