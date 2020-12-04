@@ -14,7 +14,64 @@ author_profile: true
 
 #### [Day 1] <span style="color:red">**Web Exploitation**</span> - A Christmas Crisis
 
+> **What is the name of the cookie used for authentication ?**
+
+```
+auth
+```
+
+> **In what format is the value of this cookie encoded ?**
+
+```
+JSON
+```
+
+> **Figure out how to bypass the authentication. <br>
+  What is the value of Santa's cookie?**
+
+The cookie was in json form with a field for username, 
+replace it with `santa` and hex-encode again to get the auth cookie of Santa
+
+```
+7b22636f6c20436.........222c2022757365726e616d652
+```
+
+> **What is the flag you're given when line is fully active ?**
+
+Replace the cookie value, refresh and enable all the buttons
+
+**Flag**: `THM{.......M1NjBmZWFhYmQy}`
+
 #### [Day 2] <span style="color:red">**Web Exploitation**</span> - The ELF Strikes Back!
+
+> **What string of text needs adding to the URL to get access to the upload page?**
+
+```
+?id=ODIzODI5MTNiYmYw
+```
+
+> What type of file is accepted by the site?
+
+view-source has a list of acceptable ext.
+
+```
+image
+```
+
+> **Bypass the filter and upload a reverse shell.<br>
+In which directory are the uploaded files stored?**
+
+Since only extension check is done, write a php-reverse-shell and rename it to .jpg.php<br>
+Now listen on a port for the connection
+
+```
+/uploads/
+```
+
+> **What is the flag in /var/www/flag.txt?**
+
+**Flag**: `THM{MGU3Y2U..........OWJhMzhh}`
+
 
 #### [Day 3] <span style="color:red">**Web Exploitation**</span> - Christmas Chaos
 
