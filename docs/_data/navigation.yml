@@ -1,6 +1,6 @@
 main:
-  - title: "About"
+  - title: "$whoami"
     url: /about/
-  - title: "Posts"
+  - title: "/writeups"
     url: /posts-by-categories/
- 
+  

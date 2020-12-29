@@ -1,21 +1,14 @@
 ---
-title: "About"
+title: "Hey,"
 sitemap: false
 permalink: /about/
 ---
- 
-Hey, 
  
 You will mostly find me at [Tryhackme](https://tryhackme.com/p/PraveshGaire)
 
 Below you can find my CV attached [=>]({% link /assets/files/cv.pdf %})
 
 ---
-
-_Hiiiiiiiiiiiiiiiiiiiii_ 
-
-Editing this for the 100'th time ...
-How do you write good bio's. Idk how to describe myself ...
 
 Loves forests, rivers and mountains. 
 
